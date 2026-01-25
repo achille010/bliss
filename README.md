@@ -1,12 +1,73 @@
-# React + Vite
+#  Bliss
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A simple but classic web app made with React
 
-Currently, two official plugins are available:
+##  Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
 
-## Expanding the ESLint configuration
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</div>
+
+##  Technologies
+
+- ** React** - Modern JavaScript library for building user interfaces
+- ** JSX** - JavaScript XML syntax for writing React components
+- ** CSS3** - Styling and animations
+- ** HTML5** - Semantic markup structure
+- ** JavaScript (ES6+)** - Core programming logic
+
+## 📦 Project Structure
+
+```
+bliss/
+├── 📁 public/              # Static assets
+├── 📁 src/                 # Source code
+├── 📄 .gitignore           # Git ignore configuration
+├── 📄 eslint.config.js     # ESLint configuration
+├── 📄 index.html           # Entry HTML file
+├── 📄 package.json         # Dependencies & scripts
+├── 📄 package-lock.json    # Dependency lock file
+└── 📄 README.md            # Documentation
+```
+
+##  Getting Started
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/achille010/bliss.git
+
+# Navigate to project directory
+cd bliss
+
+# Install dependencies
+npm install
+```
+
+### Development
+
+```bash
+# Start development server
+npm start
+```
+
+## 👨‍💻 Author
+
+**achille010**
+- GitHub: [@achille010](https://github.com/achille010)
+
+---
+
+<div align="center">
+
+**Made with </> using React**
+
+⭐ Star this repo if you like it!
+
+</div>
