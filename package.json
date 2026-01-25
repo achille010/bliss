@@ -1,8 +1,13 @@
 {
   "name": "react-bliss",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
-  "keywords": ["react", "frontend", "bliss", "JavaScipt"],
+  "keywords": [
+    "react",
+    "frontend",
+    "bliss",
+    "JavaScipt"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
