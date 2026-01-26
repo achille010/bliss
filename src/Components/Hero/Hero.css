@@ -121,3 +121,18 @@
     right: 80px;
     top: 70px;
 }
+
+.picImg{
+    opacity: .43;
+    transition: all .3s ease-in-out;
+}
+
+.picImg:hover{
+    opacity: 1;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
