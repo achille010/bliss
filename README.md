@@ -30,6 +30,7 @@ bliss/
 ├── 📄 .gitignore           # Git ignore configuration
 ├── 📄 eslint.config.js     # ESLint configuration
 ├── 📄 index.html           # Entry HTML file
+├── 📄 LICENSE              # MIT license file   
 ├── 📄 package.json         # Dependencies & scripts
 ├── 📄 package-lock.json    # Dependency lock file
 └── 📄 README.md            # Documentation
