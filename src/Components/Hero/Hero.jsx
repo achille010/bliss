@@ -20,7 +20,7 @@ const Hero = () => {
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const onScroll = () => {
-      setScrolled(window.scrollY > 10);
+      setScrolled(window.scrollY > 0);
     };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
@@ -36,18 +36,22 @@ const Hero = () => {
         />
       </head>
       <div className="allContainer">
-        <div className={`${scrolled ? 'navbar--scrolled' : ''}`}>
-          <div className="bliss-logo">
-            <a href="#">
-              <img src={logo} alt="Bliss logo" className="logo" />
-            </a>
-          </div>
-          <div className="nav-components">
-            {navComponents.map((navComponent) => (
-              <a className="nav-component hover-link" href="#">
-                {navComponent}
-              </a>
-            ))}
+        <div className="navContainer">
+          <div  className={`${scrolled ? "navbar--scrolled" : ""} nav`}>
+            <div className="navCont">
+              <div className="bliss-logo">
+                <a href="#">
+                  <img src={logo} alt="Bliss-logo" className="logo" />
+                </a>
+              </div>
+              <div className="nav-components">
+                {navComponents.map((navComponent) => (
+                  <a className="nav-component hover-link" href="#">
+                    {navComponent}
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
         <div className="mid-hero">
@@ -56,6 +60,15 @@ const Hero = () => {
             <div className="version">
               You are using free lite <br />
               <span style={{ marginTop: 5 }}>version of Bliss.</span>
+            </div>
+            <div className="underLeft">
+              <p>Please, purchase full version of the template to get all sections, elements and permission to remove footer credits.</p>
+            </div>
+            <div className="btn">
+              <div className="undBtn">
+                <button>Buy Now</button>
+              </div>
+              <div className="hov"></div>
             </div>
           </div>
           <div className="right">
